@@ -5,4 +5,5 @@ RUN apt-get update && \
 		wget \
 		net-tools \
 		netcat \
-		openjdk-11-jdk
+		openjdk-11-jdk \
+		vim

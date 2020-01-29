@@ -1,6 +1,5 @@
-env=./deploy-session.env
+. ./config.sh
 
-ZEEBE_LEADER_ADDRESS=172.17.0.2:26500
-./bin/zbctl --insecure --address ''$ZEEBE_LEADER_ADDRESS'' deploy ./order-process.bpmn
+echo 'deploying workflow to: ' $ZEEBE_LEADER_ADDRESS
 
-unset env
+./bin/zbctl --insecure --address $ZEEBE_LEADER_ADDRESS deploy ./order-process.bpmn
