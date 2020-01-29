@@ -1,0 +1,1 @@
+docker run -it -d -p 26500-26502:26500-26502 namesecured/zeebe-broker

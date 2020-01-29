@@ -1,0 +1,1 @@
+docker build -t namesecured/java-ubuntu:latest . -f Dockerfile.java-ubuntu

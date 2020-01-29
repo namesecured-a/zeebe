@@ -1,0 +1,8 @@
+FROM namesecured/java-ubuntu
+	
+RUN mkdir /home/docker
+WORKDIR /home/docker/
+
+RUN wget -nv https://github.com/zeebe-io/zeebe/releases/download/0.22.1/zeebe-distribution-0.22.1.tar.gz
+RUN tar -zxf zeebe-distribution-0.22.1.tar.gz
+		

@@ -1,0 +1,4 @@
+FROM namesecured/zeebe-ubuntu
+
+WORKDIR /home/docker/zeebe-broker-0.22.1/
+ENTRYPOINT ["/home/docker/zeebe-broker-0.22.1/bin/broker"]

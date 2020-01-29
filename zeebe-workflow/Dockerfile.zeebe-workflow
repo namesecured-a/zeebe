@@ -1,0 +1,5 @@
+FROM namesecured/zeebe-ubuntu
+
+WORKDIR /home/docker/zeebe-broker-0.22.1/
+COPY ./content/order-process.bpmn ./
+COPY ./content/deploy-order-process-workflow.sh ./

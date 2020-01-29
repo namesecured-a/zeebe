@@ -1,0 +1,1 @@
+docker run -it -d namesecured/zeebe-workflow

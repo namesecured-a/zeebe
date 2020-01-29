@@ -1,0 +1,1 @@
+docker build -t namesecured/zeebe-ubuntu:latest . --file Dockerfile.zeebe-ubuntu

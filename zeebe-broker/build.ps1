@@ -1,0 +1,1 @@
+docker build -t namesecured/zeebe-broker:latest . --file Dockerfile.zeebe-broker
