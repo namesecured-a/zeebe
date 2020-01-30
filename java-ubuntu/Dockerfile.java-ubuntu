@@ -4,6 +4,7 @@ RUN apt-get update && \
 	apt-get install -y curl \
 		wget \
 		net-tools \
+		iputils-ping \
 		netcat \
 		openjdk-11-jdk \
 		vim
