@@ -1,1 +1,1 @@
-docker build -t namesecured/zeebe-workflow . --file Dockerfile.zeebe-workflow
+docker build -t namesecured/zeebe-workflow:v0.0.6 -t namesecured/zeebe-workflow:latest . --file Dockerfile.zeebe-workflow
